@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <div id="1bo">
+    <style>
+      html {
+        background-image: url('img/warm-background-4bsxlnowtuj7a74p.jpg');
+      }
+      </style>
+  </div>
+  <head>
+    <title>Choose your message of the day</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+ 
+
+   
+
+
+
+
+    <div id="dropdown">
+    <!-- <button id="drop">=</button> -->
+    <input type="button" value="Menu" onclick="toggleP()" />
+    <div id="info">
+      
+      <h1 class="colortext">Message of the Day</h1>
+      
+      <p class="colortext">Choose your theme and quote</p>
+      
+      <p>
+        <select id="menu">
+          <option value="winter-in">Snowy Day</option>
+          <option value="summer-in">Summertime Fun</option>
+          <option value="fall-in">Autumns fall</option>
+          <option value="spring-in">Spring showers</option>
+        </select>
+        </p>
+        <p>Enter Name</p>
+        <input id="input" type="text"></input>
+        <br>
+        
+        <p>Focus of the day</p>
+        <input id="input3" type="text"></input>
+      
+        <p> Custom Quote</p>
+        <input id="input2" type="text"></input>
+
+        <button id="rq">Random Quote</button>
+
+    
+    
+        <br><br><br>
+        <button id="btn">Save Settings</button>
+       </div>
+
+
+    <script>
+      function toggleP() {
+        let div = document.getElementById("info");
+        if (div.style.display === "none") {
+          div.style.display = "block";
+        } else {
+          div.style.display = "none";
+        }
+      }
+    </script>
+    <br>   <br>   <br>   <br>
+
+    <div class="black">
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      <h1 id="output"> Hello mr poo</h1>
+      <br>   <br>    
+      <h2 id="output3">Dont poo</h2>
+      <br>
+      <h3 id="output2">Every day is a virtue</h3>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+.colortext {
+  color: aquamarine;
+}
+
+.colorquote {
+  color: aquamarine;
+}
+
+body {
+  border-radius: 20px;
+
+  margin: auto;
+  padding: 25px 150px 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 450px;
+  text-align: center;
+}
+
+.centerimage {
+  margin-left: auto;
+  margin-right: 600px;
+
+  border-radius: 20px;
+}
+
+.custom-background {
+  width: 4000px;
+  height: 650px;
+  margin-left: -900px;
+  margin-right: 600px;
+
+  border-radius: 20px;
+}
+
+.black {
+  background-color: rgba(0, 0, 0, 0.616);
+  color: white;
+  border-radius: 20px;
+  margin-left: -226px;
+  font-size: x-large;
+  width: 900px;
+  height: 600px;
+}
